@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get '/portfolio' => 'pages#portfolio'
 
   get '/about' => 'pages#about'
+
+  get '/contact' => 'pages#contact'
 end
