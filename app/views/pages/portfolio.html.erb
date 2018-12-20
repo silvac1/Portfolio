@@ -1,58 +1,55 @@
-
-      <div class="main portfolio">
-         <div class="">
-            <div class="slideshow-container">
-              <div> <%= image_tag 'JSresume-slider.jpg' %> </div>
-              <div> <%= image_tag 'bb-ladder-slider.jpg' %> </div>
-              <div> <%= image_tag 'React-resume-slider.jpg' %> </div>
-              <div> <%= image_tag 'the-morning-shop.png' %> </div>
+<div class="main portfolio">
+   <div class="">
+      <div class="slideshow-container">
+        <div> <%= image_tag 'bb-ladder-slider1.jpg', style: 'max-height:600px;width:100%;' %> </div>
+        <div> <%= image_tag 'fenway-slider.jpg', style: 'max-height:600px;width:100%;'%> </div>
+        <div> <%= image_tag 'themorningdonut-slider.jpg', style: 'max-height:600px;width:100%;' %> </div>
+        <div> <%= image_tag 'React-resume-slider.jpg', style: 'max-height:600px;width:100%;' %> </div>
+   </div>
+   <div class="container">
+      <div class="row">
+         <a class="col-md-6 project" href="#">
+            <div class="thumbnail-header">
+               <div class="thumbnail-header-btn"></div>
+               <div class="thumbnail-header-btn"></div>
+               <div class="thumbnail-header-btn"></div>
             </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <a class="col-md-6 project" href="#">
-                  <div class="thumbnail-header">
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                  </div>
-                  <div class="thumbnail"> <%= image_tag 'the-morning-shop.png' %> </div>
-                  <h3>The Morning Donut App</h3>
-                  <p>In a two week sprint cycle I collaborated with a team to complete a website thru test driving development that allowed users to create reviews of local donut shops. We used complex back-end logic to calculate the overall rating from a variety of rating categories, and provided like/dislike feature to the review section.</p>
-               </a>
-               <a class="col-md-6 project" href="#">
-                  <div class="thumbnail-header">
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                  </div>
-                  <div class="thumbnail"> <%= image_tag 'bb-ladder.png' %> </div>
-                  <h3>Bb-ladder App</h3>
-                  <p>BB Ladder is basketball management system. It allows players to sign up, captains to create and manage teams and request games.</p>
-               </a>
+            <div class="thumbnail"> <%= image_tag 'themorningdonut-slider.jpg' %> </div>
+            <h3>The Morning Donut App</h3>
+            <p>In a two week sprint cycle I collaborated with a team of 4 to complete a website thru test driving development that allowed users to create reviews of local donut shops. We used complex back-end logic to calculate the overall rating from a variety of rating categories, and provided like/dislike feature to the review section.</p>
+         </a>
+         <a class="col-md-6 project" href="#">
+            <div class="thumbnail-header">
+               <div class="thumbnail-header-btn"></div>
+               <div class="thumbnail-header-btn"></div>
+               <div class="thumbnail-header-btn"></div>
             </div>
-            <div class="row">
-               <a class="col-md-6 project" href="#">
-                  <div class="thumbnail-header">
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                  </div>
-                  <div class="thumbnail"> <%= image_tag 'react-resume.png' %> </div>
-                  <h3>React Resume App</h3>
-                  <p>Entirely done utilizing React, ES6 and JSX.</p>
-               </a>
-               <a class="col-md-6 project" href="#">
-                  <div class="thumbnail-header">
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                     <div class="thumbnail-header-btn"></div>
-                  </div>
-                  <div class="thumbnail"> <%= image_tag 'JSresume-slider.jpg' %> </div>
-                  <h3>Javascript Resume App</h3>
-                  <p>This app was done prior to my cohort. A simple static website illustrating my ability with html, css, javascript and some basic jquery.</p>
-               </a>
-            </div>
-
-         </div>
+            <div class="thumbnail"> <%= image_tag 'bb-ladder-slider1.jpg' %> </div>
+            <h3>Bb-ladder App</h3>
+            <p>A solo project completed in a 2 week sprint. BB Ladder is a basketball management system. It allows players to sign up, captains to create and manage teams and request games. The App is RoR - Rails on the backend and React displaying my views on the frontend. </p>
+         </a>
       </div>
+      <div class="row">
+        <a class="col-md-6 project" href="#">
+           <div class="thumbnail-header">
+              <div class="thumbnail-header-btn"></div>
+              <div class="thumbnail-header-btn"></div>
+              <div class="thumbnail-header-btn"></div>
+           </div>
+           <div class="thumbnail"> <%= image_tag 'fenway-slider.jpg' %> </div>
+           <h3>Javascript Resume App</h3>
+           <p>This app was done prior to my cohort. A simple static website illustrating my ability with html, css, javascript and some basic jquery.</p>
+        </a>
+         <a class="col-md-6 project" href="#">
+            <div class="thumbnail-header">
+               <div class="thumbnail-header-btn"></div>
+               <div class="thumbnail-header-btn"></div>
+               <div class="thumbnail-header-btn"></div>
+            </div>
+            <div class="thumbnail"> <%= image_tag 'React-resume-slider.jpg' %> </div>
+            <h3>React Resume App</h3>
+            <p>Entirely done utilizing React, ES6 and JSX.</p>
+         </a>
+      </div>
+   </div>
+</div>

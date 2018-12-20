@@ -133,7 +133,7 @@ a.btn:hover,
 
 }
 .home .jumbotron {
-	background: asset-url('welcome-bg-blur.jpg') center center;
+	background: asset-url('welcome-bg.jpg') center center;
 	background-size: cover;
 	min-height: 600px;
 	width: 100%;
@@ -142,14 +142,27 @@ a.btn:hover,
    text-shadow: 1px 1px black;
  }
 
-.portfolio .jumbotron {
-	height: 500px;
+.about .jumbotron {
+	background: asset-url('celso-bg.png') center center;
+	background-size: cover;
+	min-height: 600px;
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
 }
-.portfolio .slideshow-container {
 
+.about .jumbotron h2,
+.about .jumbotron p {
+	color:white;
+	text-shadow: 0.02em 0.02em black;
+}
+
+.about .jumbotron p {
+	font-weight: bold;
+}
+
+.portfolio .slideshow-container {
+	background-size: cover;
 }
 
 .project,
